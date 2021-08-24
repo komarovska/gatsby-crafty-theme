@@ -3,8 +3,8 @@ import Layout from "../components/Layout/layout"
 
 class AboutPage extends Component {
   render() {
-    let aboutData = this.props.data.allAboutJson.nodes[0]
-    let teamMembers = []
+    let aboutData = this.props.data.allAboutJson.nodes[0];
+    let teamMembers = [];
     let i = 0
     aboutData.team_members.forEach(item => {
       teamMembers.push(

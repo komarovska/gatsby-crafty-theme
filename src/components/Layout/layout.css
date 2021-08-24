@@ -354,3 +354,8 @@ body {
 .contact-icon {
   width: 90px;
 }
+.test-class {
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+}
